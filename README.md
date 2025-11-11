@@ -1,18 +1,56 @@
 # Kaorios-Toolbox
-### Feature
-- Play intergrity fix
-- Pixel & Props spoofing
-- Per-app spoofing manager
-- Google photos unlimited backup
-- Payload dumper
-- Unlock fps games
-- modify application data file
-### How to use?
-- [Kaorios-Toolbox Guide](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs)
-### Screenshot 
-[Home](https://github.com/Wuang26/Kaorios-Toolbox/blob/main/Toolbox-Screenshot/Home_Screen.jpg)
-[Tools](https://github.com/Wuang26/Kaorios-Toolbox/blob/main/Toolbox-Screenshot/Tools_Screen.jpg)
-[See more photos](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-Screenshot)
-### Credits
-Payload Dumper: [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Home_Screen.jpg" alt="Kaorios Toolbox Home" width="720"/>
+</p>
+
+Kaorios-Toolbox is a powerful Android system toolkit designed for developers and advanced users.  
+It provides advanced system spoofing, Google Play integrity fixes, and per-app configuration tools — all in a simple and modern interface.
+
+---
+
+## ✨ Features
+
+- ✅ Play Integrity fix  
+- 🧩 Pixel & property spoofing  
+- ⚙️ Per-app spoofing manager  
+- ☁️ Google Photos unlimited backup  
+- 🧰 Payload dumper integration  
+- 🎮 Unlock high-FPS modes in games  
+- 🧾 Modify application data files safely  
+
+---
+
+## 🚀 How to use
+
+Follow the detailed usage guide here:  
+👉 [Kaorios-Toolbox Guide](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs)
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Home_Screen.jpg">
+    <img src="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Home_Screen.jpg" alt="Home Screen" width="360"/>
+  </a>
+  &nbsp;
+  <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Tools_Screen.jpg">
+    <img src="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Tools_Screen.jpg" alt="Tools Screen" width="360"/>
+  </a>
+</p>
+
+[🔍 See more screenshots →](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-Screenshot)
+
+---
+
+## 🙏 Credits
+
+- **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose)
+- --
+## 🌍 Localization & Translations
+
+Help us translate Kaorios-Toolbox into your language!
+
+- Translation files live here: **[Toolbox-Lang](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-Lang)**
+- Base file to translate: `vi.xml`.

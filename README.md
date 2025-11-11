@@ -40,17 +40,7 @@ Follow the detailed usage guide here:
 Help us translate Kaorios-Toolbox into your language! 🌐
 
 - Translation files live here: **[Toolbox-Lang](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-Lang)**
-- Base file to translate: `strings.xml` (English source)
-- Accepted locales: `values-vi`, `values-ja`, `values-pt-rBR`, `values-zh-rCN`, etc.
-
-### How to contribute a translation
-1. **Fork** this repo and create a new branch, e.g. `i18n/values-vi`.
-2. Copy the base `strings.xml` file into a new folder under `Toolbox-Lang/values-xx/`.
-3. Translate all string values (keep keys and placeholders `%1$s`, `%d`, etc. unchanged).
-4. Submit a Pull Request titled: `i18n: Add <language> translation`.
-5. If you cannot open a PR, attach your file in an Issue.
-
-📘 Full guide: [CONTRIBUTING-TRANSLATION.md](./CONTRIBUTING-TRANSLATION.md)
+- Base file to translate: `vi.xml`.
 
 ---
 

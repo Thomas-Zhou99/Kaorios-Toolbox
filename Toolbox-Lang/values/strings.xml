@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Kaorios Toolbox</string>
+    <!-- @language type - by: @translator name -->
 
     <!-- Common -->
     <string name="common_reset_to_default">Reset to default</string>

@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Kaorios Toolbox</string>
 
     <!-- Common -->
     <string name="common_reset_to_default">Đặt lại về mặc định</string>

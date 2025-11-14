@@ -62,14 +62,15 @@ hasSystemFeature(Ljava/lang/String;I)Z
 
 in method find:
 ```
-return v0
+return vX
     .end method
 ```
 
 **add this code above the just found**:
+**change "vX" to match your method**:
 ```
-invoke-static {p1, p2, v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeatures(Ljava/lang/String;IZ)Z
-move-result v0
+invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeatures(Ljava/lang/String;IZ)Z
+move-result vX
 ```
 
 ---

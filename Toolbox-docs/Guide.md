@@ -17,6 +17,7 @@
 
 ```properties
 persist.sys.kaorios=kousei
+ro.control_privapp_permissions=
 ```
 
 ---

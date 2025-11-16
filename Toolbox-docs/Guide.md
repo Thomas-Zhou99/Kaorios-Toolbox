@@ -16,7 +16,9 @@
 ## Step 2: Add to `system/build.prop`
 
 ```properties
+# Kaorios Toolbox
 persist.sys.kaorios=kousei
+# permission
 ro.control_privapp_permissions=
 ```
 

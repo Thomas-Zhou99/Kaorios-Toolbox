@@ -38,25 +38,6 @@ ApplicationPackageManager
 
 #### Method:
 ```
-hasSystemFeature(Ljava/lang/String;)Z
-```
-
-in method find:
-```
-return v0
-    .end method
-```
-
-**add this code above the just found**:
-```
-invoke-static {v0, p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosAttestationBL(ZLjava/lang/String;)Z
-move-result v0
-```
-
----
-
-#### Method:
-```
 hasSystemFeature(Ljava/lang/String;I)Z
 ```
 
@@ -68,11 +49,19 @@ return vX
 
 **add this code above the just found**:
 **change "vX" to match your method**:
-```
-invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeatures(Ljava/lang/String;IZ)Z
-move-result vX
-```
 
+**A13-14-15**
+```
+invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV2(Ljava/lang/String;Z)Z
+
+    move-result vX
+```
+**A16**
+```
+invoke-static {p1, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV2(Ljava/lang/String;Z)Z
+
+    move-result vX
+```
 ---
 
 ### Class:

@@ -32,6 +32,7 @@
 
     invoke-virtual {v0, p1}, Landroid/app/Application;->attach(Landroid/content/Context;)V
 
+    ###Kousei added
     invoke-static {p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosProps(Landroid/content/Context;)V
 
     return-object v0
@@ -63,6 +64,7 @@
 
     invoke-virtual {v0, p3}, Landroid/app/Application;->attach(Landroid/content/Context;)V
 
+    ###Kousei added
     invoke-static {p3}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosProps(Landroid/content/Context;)V
 
     return-object v0

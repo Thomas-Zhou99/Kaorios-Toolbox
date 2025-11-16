@@ -18,7 +18,7 @@
 ```properties
 # Kaorios Toolbox
 persist.sys.kaorios=kousei
-# permission
+# Permission
 ro.control_privapp_permissions=
 ```
 

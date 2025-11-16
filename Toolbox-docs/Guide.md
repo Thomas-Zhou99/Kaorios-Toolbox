@@ -34,6 +34,7 @@ Import **classes.dex** into the **last classes** of `framework.jar` (append as t
 
 > **Note:** If you are unsure about the exact injection spots, please refer to the **sample .smali templates** in the repo’s **[Toolbox-docs/Template](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs/Template)** folder.
 
+> **For Framework.jar in Android 15 you will need to remove methods containing invoke-custom to avoid bootloop**
 ### Class:
 ```
 ApplicationPackageManager

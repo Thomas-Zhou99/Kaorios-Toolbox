@@ -58,6 +58,29 @@ ApplicationPackageManager
 ```
 > ### Method:
 ```
+hasSystemFeature(Ljava/lang/String;)Z
+```
+> Replace method with:
+```
+.method public hasSystemFeature(Ljava/lang/String;)Z
+    .registers 3
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, p1, v0}, Landroid/app/ApplicationPackageManager;->hasSystemFeature(Ljava/lang/String;I)Z
+
+    move-result p0
+
+    invoke-static {p0, p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosAttestationBL(ZLjava/lang/String;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+```
+> ### Method:
+```
 hasSystemFeature(Ljava/lang/String;I)Z
 ```
 > Replace **.registers X** with:

@@ -4,6 +4,7 @@
 
 # virtual methods
 .method public hasSystemFeature(Ljava/lang/String;)Z
+.method public hasSystemFeature(Ljava/lang/String;)Z
     .registers 3
 
     const/4 v0, 0x0
@@ -12,7 +13,7 @@
 
     move-result p0
 
-    invoke-static {p0, p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriStrongBoxFeatures(ZLjava/lang/String;)Z
+    invoke-static {p0, p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosAttestationBL(ZLjava/lang/String;)Z
 
     move-result p0
 

@@ -52,20 +52,20 @@
     "MODEL": "ASUS_AI2203_C"
   },
   "com.activision.callofduty.shooter": {
-    "MANUFACTURER": "lenovo",
-    "MODEL": "Lenovo TB-9707F"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.garena.game.codm": {
-    "MANUFACTURER": "lenovo",
-    "MODEL": "Lenovo TB-9707F"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.tencent.tmgp.kr.codm": {
-    "MANUFACTURER": "lenovo",
-    "MODEL": "Lenovo TB-9707F"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.vng.codmvn": {
-    "MANUFACTURER": "lenovo",
-    "MODEL": "Lenovo TB-9707F"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.netease.lztgglobal": {
     "MANUFACTURER": "OnePlus",
@@ -73,27 +73,27 @@
   },
   "com.riotgames.league.wildrift": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.riotgames.league.wildrifttw": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.riotgames.league.wildriftvn": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.riotgames.league.teamfighttactics": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.riotgames.league.teamfighttacticstw": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.riotgames.league.teamfighttacticsvn": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
+    "MODEL": "PLK110"
   },
   "com.epicgames.fortnite": {
     "MANUFACTURER": "OnePlus",
@@ -120,8 +120,8 @@
     "MODEL": "2107113SI"
   },
   "com.vng.mlbbvn": {
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2107113SI"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.levelinfinite.sgameGlobal": {
     "BRAND": "Xiaomi",
@@ -142,8 +142,8 @@
     "MODEL": "RMX5070"
   },
   "com.mobile.legends": {
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "23049PCD8G"
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   },
   "com.proximabeta.mf.uamo": {
     "MANUFACTURER": "blackshark",
@@ -275,13 +275,5 @@
     "MODEL": "SM-S928B",
     "FINGERPRINT": "samsung/SM-S928B/SM-S928B:14/UP1A.231005.007/20240225:user/release-keys",
     "PRODUCT": "SM-S928B"
-  },
-  "com.mobile.legends": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.activision.callofduty.shooter": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
   }
 }

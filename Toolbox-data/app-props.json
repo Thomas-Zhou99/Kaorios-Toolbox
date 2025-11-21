@@ -275,5 +275,13 @@
     "MODEL": "SM-S928B",
     "FINGERPRINT": "samsung/SM-S928B/SM-S928B:14/UP1A.231005.007/20240225:user/release-keys",
     "PRODUCT": "SM-S928B"
+  },
+  "com.mobile.legends": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.activision.callofduty.shooter": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
   }
 }

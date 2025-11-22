@@ -64,13 +64,22 @@
       "PRODUCT": "TB-9707F"
     },
     {
-      "name": "Red Magic 9 Pro",
+      "name": "RedMagic 9 Pro",
       "BRAND": "nubia",
       "DEVICE": "REDMAGIC 9 Pro",
       "MANUFACTURER": "ZTE",
       "MODEL": "NX769J",
       "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys",
       "PRODUCT": "NX769J"
+    },
+    {
+      "name": "RedMagic 10 Pro",
+      "BRAND": "nubia",
+      "DEVICE": "RedMagic 10 Pro",
+      "MANUFACTURER": "ZTE",
+      "MODEL": "NX789J",
+      "FINGERPRINT": "nubia/NX789J-UN/NX789J:15/AQ3A.240812.002/20241212.194919:user/release-keys",
+      "PRODUCT": "NX789J"
     },
     {
       "name": "OnePlus 11",

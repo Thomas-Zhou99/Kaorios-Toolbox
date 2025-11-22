@@ -1,4 +1,204 @@
 {
+  "com.activision.callofduty.shooter": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.clashoftitansandroid.india": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.coolapk.market": {
+    "MANUFACTURER": "Nothing",
+    "BRAND": "Nothing",
+    "MODEL": "A024"
+  },
+  "com.dts.freefiremax": {
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5070"
+  },
+  "com.dts.freefireth": {
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5070"
+  },
+  "com.ea.gp.apexlegendsmobilefps": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2107113SI"
+  },
+  "com.ea.gp.fifamobile": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.epicgames.fortnite": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "LE2123"
+  },
+  "com.epicgames.portal": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "LE2123"
+  },
+  "com.facebook.orca": {
+    "BRAND": "Samsung",
+    "DEVICE": "Galaxy S24 Ultra",
+    "MANUFACTURER": "Samsung",
+    "MODEL": "SM-S928B",
+    "FINGERPRINT": "samsung/SM-S928B/SM-S928B:14/UP1A.231005.007/20240225:user/release-keys",
+    "PRODUCT": "SM-S928B"
+  },
+  "com.gameloft.android.ANMP.GloftA9HM": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.garena.game.codm": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.garena.game.kgid": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgms": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgph": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgth": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgtw": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgvn": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgvntest": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgms": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgph": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgth": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgtw": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgvn": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgvntest": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgph": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgth": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgms": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.levelinfinite.aov": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.levelinfinite.hotta.gp": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2107113SI"
+  },
+  "com.levelinfinite.sgameGlobal": {
+    "BRAND": "Xiaomi",
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2210132C"
+  },
+  "com.madfingergames.legends": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.mobile.legends": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.mobilelegends.mi": {
+    "MANUFACTURER": "ZTE",
+    "BRAND": "nubia",
+    "MODEL": "NX769J",
+    "DEVICE": "REDMAGIC 9 Pro",
+    "PRODUCT": "NX769J",
+    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys"
+  },
+  "com.netease.lztgglobal": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.netease.newspike": {
+    "MANUFACTURER": "ZTE",
+    "BRAND": "nubia",
+    "MODEL": "NX769J",
+    "DEVICE": "REDMAGIC 9 Pro",
+    "PRODUCT": "NX769J",
+    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys"
+  },
   "com.netflix.mediaclient": {
     "BRAND": "google",
     "DEVICE": "mustang",
@@ -6,6 +206,12 @@
     "MODEL": "Pixel 10 Pro XL",
     "FINGERPRINT": "google/mustang/mustang:16/BD3A.251005.003.W3/14147046:user/release-keys",
     "PRODUCT": "mustang"
+  },
+  "com.ngame.allstar.eu": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
   },
   "com.nhs.online.nhsonline": {
     "BRAND": "google",
@@ -15,23 +221,10 @@
     "FINGERPRINT": "google/mustang/mustang:16/BD3A.251005.003.W3/14147046:user/release-keys",
     "PRODUCT": "mustang"
   },
-  "com.ea.gp.fifamobile": {
-    "BRAND": "asus",
-    "DEVICE": "AI2201",
-    "MANUFACTURER": "asus",
-    "MODEL": "ASUS_AI2201"
-  },
-  "com.gameloft.android.ANMP.GloftA9HM": {
-    "BRAND": "asus",
-    "DEVICE": "AI2201",
-    "MANUFACTURER": "asus",
-    "MODEL": "ASUS_AI2201"
-  },
-  "com.madfingergames.legends": {
-    "BRAND": "asus",
-    "DEVICE": "AI2201",
-    "MANUFACTURER": "asus",
-    "MODEL": "ASUS_AI2201"
+  "com.omarea.vtools": {
+    "MANUFACTURER": "Xiaomi",
+    "BRAND": "Xiaomi",
+    "MODEL": "2509FPN0BC"
   },
   "com.pearlabyss.blackdesertm": {
     "BRAND": "asus",
@@ -51,37 +244,26 @@
     "MANUFACTURER": "asus",
     "MODEL": "ASUS_AI2203_C"
   },
-  "com.activision.callofduty.shooter": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+  "com.proximabeta.mf.uamo": {
+    "MANUFACTURER": "blackshark",
+    "MODEL": "2SM-X706B"
   },
-  "com.garena.game.codm": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+  "com.pubg.imobile": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
   },
-  "com.tencent.tmgp.kr.codm": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+  "com.pubg.krmobile": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
   },
-  "com.vng.codmvn": {
+  "com.rekoo.pubgm": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.netease.lztgglobal": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2020"
-  },
-  "com.riotgames.league.wildrift": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.riotgames.league.wildrifttw": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.riotgames.league.wildriftvn": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
   },
   "com.riotgames.league.teamfighttactics": {
     "MANUFACTURER": "OnePlus",
@@ -95,162 +277,31 @@
     "MANUFACTURER": "OnePlus",
     "MODEL": "PLK110"
   },
-  "com.epicgames.fortnite": {
+  "com.riotgames.league.wildrift": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "LE2123"
+    "MODEL": "PLK110"
   },
-  "com.epicgames.portal": {
+  "com.riotgames.league.wildrifttw": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "LE2123"
+    "MODEL": "PLK110"
   },
-  "com.tencent.lolm": {
+  "com.riotgames.league.wildriftvn": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "LE2123"
+    "MODEL": "PLK110"
   },
-  "com.ea.gp.apexlegendsmobilefps": {
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2107113SI"
-  },
-  "com.levelinfinite.hotta.gp": {
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2107113SI"
+  "com.supercell.brawlstars": {
+    "MANUFACTURER": "ZTE",
+    "BRAND": "nubia",
+    "MODEL": "NX769J",
+    "DEVICE": "REDMAGIC 9 Pro",
+    "PRODUCT": "NX769J",
+    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys"
   },
   "com.supercell.clashofclans": {
     "MANUFACTURER": "Xiaomi",
     "MODEL": "2107113SI"
   },
-  "com.vng.mlbbvn": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.levelinfinite.sgameGlobal": {
-    "BRAND": "Xiaomi",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2210132C"
-  },
-  "com.tencent.tmgp.sgame": {
-    "BRAND": "Xiaomi",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2210132C"
-  },
-  "com.dts.freefiremax": {
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5070"
-  },
-  "com.dts.freefireth": {
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5070"
-  },
-  "com.mobile.legends": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
-  },
-  "com.proximabeta.mf.uamo": {
-    "MANUFACTURER": "blackshark",
-    "MODEL": "2SM-X706B"
-  },
-  "com.blizzard.diablo.immortal": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.pubg.imobile": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.pubg.krmobile": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.rekoo.pubgm": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.tencent.ig": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.tencent.tmgp.pubgmhd": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.vng.pubgmobile": {
-    "BRAND": "samsung",
-    "MANUFACTURER": "samsung",
-    "MODEL": "SM-S928B"
-  },
-  "com.garena.game.kgvn": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.garena.game.kgid": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.garena.game.kgth": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.tencent.ngjp": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.garena.game.kgtw": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.ngame.allstar.eu": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.clashoftitansandroid.india": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.tencent.ngame.chty": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.garena.game.kgvntest": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.levelinfinite.aov": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
   "com.tencent.aovindia": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-  },
-  "com.garena.game.kgms": {
     "BRAND": "realme",
     "DEVICE": "Realme 15 Pro 5G",
     "MANUFACTURER": "realme",
@@ -262,18 +313,134 @@
     "MANUFACTURER": "realme",
     "MODEL": "RMX5101"
   },
-  "com.garena.game.kgph": {
+  "com.tencent.ig": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.tencent.jkchess": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.lolm": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.mf.uam": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.ngame.chty": {
     "BRAND": "realme",
     "DEVICE": "Realme 15 Pro 5G",
     "MANUFACTURER": "realme",
     "MODEL": "RMX5101"
   },
-  "com.facebook.orca": {
-    "BRAND": "Samsung",
-    "DEVICE": "Galaxy S24 Ultra",
-    "MANUFACTURER": "Samsung",
-    "MODEL": "SM-S928B",
-    "FINGERPRINT": "samsung/SM-S928B/SM-S928B:14/UP1A.231005.007/20240225:user/release-keys",
-    "PRODUCT": "SM-S928B"
+  "com.tencent.ngjp": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.tencent.qqlite": {
+    "MANUFACTURER": "Xiaomi",
+    "BRAND": "Xiaomi",
+    "MODEL": "23046RP50C"
+  },
+  "com.tencent.tmgp.cf": {
+    "MANUFACTURER": "NUBIA",
+    "BRAND": "NUBIA",
+    "MODEL": "NP05J",
+    "DEVICE": "NP05J",
+    "PRODUCT": "NP05J"
+  },
+  "com.tencent.tmgp.cod": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.tmgp.codev": {
+    "MANUFACTURER": "VIVO",
+    "BRAND": "VIVO",
+    "MODEL": "V2505A",
+    "DEVICE": "V2505A",
+    "PRODUCT": "V2505A"
+  },
+  "com.tencent.tmgp.dfm": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.tmgp.kr.codm": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.tencent.tmgp.pubgmhd": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.tmgp.sgame": {
+    "MANUFACTURER": "VIVO",
+    "BRAND": "VIVO",
+    "MODEL": "V2505A",
+    "DEVICE": "V2505A",
+    "PRODUCT": "V2505A"
+  },
+  "com.tencent.tmgp.speedmobile": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.tmgp.supercell.clashofclans": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "com.tencent.mobileqq": {
+    "MANUFACTURER": "Xiaomi",
+    "BRAND": "Xiaomi",
+    "MODEL": "23046RP50C"
+  },
+  "com.vng.codmvn": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.vng.mlbbvn": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "PLK110"
+  },
+  "com.vng.pubgmobile": {
+    "MANUFACTURER": "OnePlus",
+    "BRAND": "OnePlus",
+    "MODEL": "PLK110",
+    "DEVICE": "PLK110",
+    "PRODUCT": "PLK110"
+  },
+  "flar2.devcheck": {
+    "MANUFACTURER": "VIVO",
+    "BRAND": "VIVO",
+    "MODEL": "V2505A",
+    "DEVICE": "V2505A",
+    "PRODUCT": "V2505A"
   }
 }

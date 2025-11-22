@@ -1,9 +1,20 @@
 .class public Landroid/app/ApplicationPackageManager;
 .super Landroid/content/pm/PackageManager;
 
+# instance fields
+.field private final mContext:Landroid/content/Context;
 
 # virtual methods
-.method public hasSystemFeature(Ljava/lang/String;)Z
+.method public constructor <init>(Landroid/content/Context;)V
+    .registers 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroid/app/ApplicationPackageManager;->mContext:Landroid/content/Context;
+
+    return-void
+.end method
+
 .method public hasSystemFeature(Ljava/lang/String;)Z
     .registers 3
 

@@ -61,4 +61,4 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 
 - **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose).
 - **AOSP Framework**
-- **Framework Patcher** -[Jefino9488 Jefino](https://github.com/Jefino9488)
+- **Framework Patcher** - [Jefino9488 Jefino](https://github.com/Jefino9488)

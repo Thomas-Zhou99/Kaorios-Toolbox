@@ -26,9 +26,9 @@ jobs:
 
       - name: Run Patcher
         run: |
-          chmod +x framework-patcher/scripts/patcher.sh
-          # The script expects to be run from framework-patcher directory where tools are located
-          cd framework-patcher
+          chmod +x Toolbox-patcher/scripts/patcher.sh
+          # The script expects to be run from Toolbox-patcher directory where tools are located
+          cd Toolbox-patcher
           # Copy framework.jar to current dir
           cp ../framework.jar .
           ./scripts/patcher.sh framework.jar
@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: framework-patched
-          path: framework-patcher/framework_patched.jar
+          path: Toolbox-patcher/framework_patched.jar

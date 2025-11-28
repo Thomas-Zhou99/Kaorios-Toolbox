@@ -18,7 +18,20 @@ Follow the detailed usage guide here:
 
 ---
 
-## 🖼️ Screenshots
+## �️ Framework Patcher
+
+You can easily patch your `framework.jar` using GitHub Actions without needing to set up a local environment.
+
+1.  **Fork this repository** to your own GitHub account.
+2.  Go to the **Actions** tab in your forked repository.
+3.  Select the **Framework Patcher** workflow from the left sidebar.
+4.  Click **Run workflow**.
+5.  Enter the **Direct URL** to your `framework.jar` file.
+6.  Once the workflow completes, download the `framework-patched` artifact from the run summary.
+
+---
+
+## �🖼️ Screenshots
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Home_Screen.jpg">

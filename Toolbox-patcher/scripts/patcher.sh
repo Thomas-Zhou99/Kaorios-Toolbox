@@ -84,7 +84,9 @@ main() {
     recompile_jar "$framework_path"
 
     # Optimize with D8
-    export D8_CMD="${D8_CMD:-$HOME/android-sdk/build-tools/36.1.0/d8}"
+    # Ensure tools are available (including D8)
+    ensure_tools
+
     local patched_jar="${framework_path%.*}_patched.jar"
     if [ -f "$patched_jar" ]; then
         d8_optimize_jar "$patched_jar"

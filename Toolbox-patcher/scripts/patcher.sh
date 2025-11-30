@@ -94,6 +94,10 @@ main() {
         echo "❌ Error: Patched JAR not found at $patched_jar"
     fi
 
+    # Create Kaorios Module
+    source "$SCRIPT_DIR/core/module.sh"
+    create_kaorios_module
+
     # Clean up
     rm -rf "$decompile_dir"
 

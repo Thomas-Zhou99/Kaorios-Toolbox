@@ -1,59 +1,88 @@
 .class public final Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;
-.super Ljava/lang/Object;
-
-# interfaces
-.implements Ljava/security/PrivilegedAction;
+.super Ljava/io/OutputStream;
 
 
 # instance fields
-.field public final synthetic Kq5pt6AeqxqwOjab0R8ioI:Ljava/lang/String;
-
-.field public final synthetic Ku5O3sihzbUhwSewE8uI:I
-
-
-# direct methods
-.method public synthetic constructor <init>(Ljava/lang/String;I)V
-    .registers 3
-
-    iput p2, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Ku5O3sihzbUhwSewE8uI:I
-
-    iput-object p1, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Kq5pt6AeqxqwOjab0R8ioI:Ljava/lang/String;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.field public Ku5O3sihzbUhwSewE8uI:Ljava/security/Signature;
 
 
 # virtual methods
-.method public final run()Ljava/lang/Object;
-    .registers 2
+.method public final write(I)V
+    .registers 3
 
-    iget v0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Ku5O3sihzbUhwSewE8uI:I
+    :try_start_0
+    iget-object p0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Ku5O3sihzbUhwSewE8uI:Ljava/security/Signature;
 
-    packed-switch v0, :pswitch_data_14
+    int-to-byte p1, p1
 
-    iget-object p0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Kq5pt6AeqxqwOjab0R8ioI:Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/security/Signature;->update(B)V
+    :try_end_6
+    .catch Ljava/security/SignatureException; {:try_start_0 .. :try_end_6} :catch_7
 
-    invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+    return-void
 
-    move-result-object p0
+    :catch_7
+    move-exception p0
 
-    return-object p0
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    :pswitch_c
-    iget-object p0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Kq5pt6AeqxqwOjab0R8ioI:Ljava/lang/String;
+    move-result-object p1
 
-    invoke-static {p0}, Ljava/security/Security;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+    new-instance v0, Ljava/io/IOException;
 
-    move-result-object p0
+    invoke-direct {v0, p1, p0}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    return-object p0
+    throw v0
+.end method
 
-    nop
+.method public final write([B)V
+    .registers 3
 
-    :pswitch_data_14
-    .packed-switch 0x0
-        :pswitch_c
-    .end packed-switch
+    :try_start_0
+    iget-object p0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Ku5O3sihzbUhwSewE8uI:Ljava/security/Signature;
+
+    invoke-virtual {p0, p1}, Ljava/security/Signature;->update([B)V
+    :try_end_5
+    .catch Ljava/security/SignatureException; {:try_start_0 .. :try_end_5} :catch_6
+
+    return-void
+
+    :catch_6
+    move-exception p0
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    new-instance v0, Ljava/io/IOException;
+
+    invoke-direct {v0, p1, p0}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw v0
+.end method
+
+.method public final write([BII)V
+    .registers 4
+
+    :try_start_0
+    iget-object p0, p0, Lcom/android/internal/util/kaorios/Kay4jO6l5qmpUoxj3S2EgxquI;->Ku5O3sihzbUhwSewE8uI:Ljava/security/Signature;
+
+    invoke-virtual {p0, p1, p2, p3}, Ljava/security/Signature;->update([BII)V
+    :try_end_5
+    .catch Ljava/security/SignatureException; {:try_start_0 .. :try_end_5} :catch_6
+
+    return-void
+
+    :catch_6
+    move-exception p0
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    new-instance p2, Ljava/io/IOException;
+
+    invoke-direct {p2, p1, p0}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw p2
 .end method

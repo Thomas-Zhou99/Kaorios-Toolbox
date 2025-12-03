@@ -16,7 +16,7 @@
 .method static constructor <clinit>()V
     .registers 1
 
-    new-instance v0, Lcom/android/internal/util/kaorios/KgAcOcqsyqoRgoyk5I;
+    new-instance v0, Lcom/android/internal/util/kaorios/K0srqwqOmzjslUpl3S05Eu9I;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
@@ -58,9 +58,9 @@
     goto :goto_2e
 
     :cond_16
-    const-wide v1, -0x3683b49a02cfL
+    const-wide v1, -0xf6ace37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -106,9 +106,9 @@
     goto :goto_52
 
     :cond_d
-    const-wide v1, -0x3721b49a02cfL
+    const-wide v1, -0xf512e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -123,17 +123,17 @@
     goto :goto_52
 
     :cond_1e
-    const-wide v0, -0x3733b49a02cfL
+    const-wide v0, -0xf5fce37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
-    const-wide v0, -0x375cb49a02cfL
+    const-wide v0, -0xf5d7e37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
-    const-wide v0, -0x3780b49a02cfL
+    const-wide v0, -0xf5b3e37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -143,9 +143,9 @@
 
     if-nez v0, :cond_51
 
-    const-wide v0, -0x37a9b49a02cfL
+    const-wide v0, -0xf58ae37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -173,7 +173,7 @@
     return p0
 .end method
 
-.method public static KaoriosFeaturesV1(Ljava/lang/String;IZ)Z
+.method public static KaoriosFeatures(Ljava/lang/String;IZ)Z
     .registers 6
 
     invoke-static {}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Ku5O3sihzbUhwSewE8uI()Z
@@ -201,9 +201,9 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-wide v1, -0x356cb49a02cfL
+    const-wide v1, -0xf7c7e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -220,7 +220,7 @@
     return p2
 .end method
 
-.method public static KaoriosFeaturesV2(Ljava/lang/String;Z)Z
+.method public static KaoriosFeatures(Ljava/lang/String;Z)Z
     .registers 8
 
     invoke-static {}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Ku5O3sihzbUhwSewE8uI()Z
@@ -236,15 +236,15 @@
     goto/16 :goto_ca
 
     :cond_c
-    const-wide v0, -0x3695b49a02cfL
+    const-wide v0, -0xf69ee37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
-    const-wide v1, -0x36a9b49a02cfL
+    const-wide v1, -0xf68ae37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -252,9 +252,9 @@
 
     move-result-object v0
 
-    const-wide v1, -0x36aab49a02cfL
+    const-wide v1, -0xf685e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -278,9 +278,9 @@
 
     invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-wide v1, -0x36b1b49a02cfL
+    const-wide v1, -0xf682e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -309,9 +309,9 @@
 
     sput-boolean v2, Lcom/android/internal/util/kaorios/ToolboxUtils;->Kq5pt6AeqxqwOjab0R8ioI:Z
 
-    const-wide v0, -0x36eab49a02cfL
+    const-wide v0, -0xf545e37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object p0
 
@@ -360,9 +360,9 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-wide v4, -0x359fb49a02cfL
+    const-wide v4, -0xf790e37d0521L
 
-    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v4
 
@@ -382,9 +382,9 @@
 
     sput-boolean v2, Lcom/android/internal/util/kaorios/ToolboxUtils;->Kq4snztAiatOsRsxI:Z
 
-    const-wide v0, -0x35cbb49a02cfL
+    const-wide v0, -0xf664e37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object p0
 
@@ -418,37 +418,138 @@
 .end method
 
 .method public static KaoriosKeybox(Landroid/system/keystore2/KeyEntryResponse;)Landroid/system/keystore2/KeyEntryResponse;
-    .registers 4
+    .registers 5
 
     invoke-static {}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Ku5O3sihzbUhwSewE8uI()Z
 
     move-result v0
 
-    if-nez v0, :cond_7
+    if-eqz v0, :cond_36
 
-    return-object p0
+    invoke-static {}, Landroid/app/ActivityThread;->currentApplication()Landroid/app/Application;
 
-    :cond_7
-    :try_start_7
-    invoke-static {p0}, Lcom/android/internal/util/kaorios/K3pAbOf5Rboz9I;->KmwO02nawgUws9Syxnq2rElI(Landroid/system/keystore2/KeyEntryResponse;)Landroid/system/keystore2/KeyEntryResponse;
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_21
+
+    invoke-static {}, Landroid/os/Process;->isIsolated()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_14
+
+    goto :goto_21
+
+    :cond_14
+    const-wide v2, -0xf466e37d0521L
+
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v2, v1}, Lcom/android/internal/util/kaorios/SettingsHelper;->isToggleEnabled(Landroid/content/Context;Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    :cond_21
+    :goto_21
+    if-nez v1, :cond_24
+
+    goto :goto_36
+
+    :cond_24
+    :try_start_24
+    invoke-static {p0}, Lcom/android/internal/util/kaorios/KicqlOkb01lsU7reShrE36h7I;->KmwO02nawgUws9Syxnq2rElI(Landroid/system/keystore2/KeyEntryResponse;)Landroid/system/keystore2/KeyEntryResponse;
 
     move-result-object p0
-    :try_end_b
-    .catchall {:try_start_7 .. :try_end_b} :catchall_c
+    :try_end_28
+    .catchall {:try_start_24 .. :try_end_28} :catchall_29
 
     return-object p0
 
-    :catchall_c
+    :catchall_29
     move-exception v0
 
-    const-wide v1, -0x3559b49a02cfL
+    const-wide v1, -0xf7e9e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1, v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Kq5pt6AeqxqwOjab0R8ioI(Ljava/lang/String;Ljava/lang/Throwable;)V
 
+    :cond_36
+    :goto_36
+    return-object p0
+.end method
+
+.method public static KaoriosKeybox([Ljava/security/cert/Certificate;)[Ljava/security/cert/Certificate;
+    .registers 5
+
+    invoke-static {}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Ku5O3sihzbUhwSewE8uI()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_36
+
+    invoke-static {}, Landroid/app/ActivityThread;->currentApplication()Landroid/app/Application;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_21
+
+    invoke-static {}, Landroid/os/Process;->isIsolated()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_14
+
+    goto :goto_21
+
+    :cond_14
+    const-wide v2, -0xf466e37d0521L
+
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v2, v1}, Lcom/android/internal/util/kaorios/SettingsHelper;->isToggleEnabled(Landroid/content/Context;Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    :cond_21
+    :goto_21
+    if-nez v1, :cond_24
+
+    goto :goto_36
+
+    :cond_24
+    :try_start_24
+    invoke-static {p0}, Lcom/android/internal/util/kaorios/KmAjfvsOy1qxiRzbI;->Kq5pt6AeqxqwOjab0R8ioI([Ljava/security/cert/Certificate;)[Ljava/security/cert/Certificate;
+
+    move-result-object p0
+    :try_end_28
+    .catchall {:try_start_24 .. :try_end_28} :catchall_29
+
+    return-object p0
+
+    :catchall_29
+    move-exception v0
+
+    const-wide v1, -0xf7dae37d0521L
+
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1, v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Kq5pt6AeqxqwOjab0R8ioI(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :cond_36
+    :goto_36
     return-object p0
 .end method
 
@@ -465,7 +566,7 @@
 
     :cond_7
     :try_start_7
-    invoke-static {p0}, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->KmzodnwO1tUkgkS8cymEofiI(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->KmzodnwO1tUkgkS8cymEofiI(Landroid/content/Context;)V
     :try_end_a
     .catchall {:try_start_7 .. :try_end_a} :catchall_b
 
@@ -474,9 +575,9 @@
     :catchall_b
     move-exception v0
 
-    const-wide v1, -0x34eeb49a02cfL
+    const-wide v1, -0xf754e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -490,7 +591,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/android/internal/util/kaorios/KwhOc6du0sUev366Syb09nyEvsvclI;->Ku5O3sihzbUhwSewE8uI(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/android/internal/util/kaorios/K6rO5a9UiezfihSurbyjoEg50oI;->Ku5O3sihzbUhwSewE8uI(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_21
     .catchall {:try_start_1a .. :try_end_21} :catchall_22
 
@@ -499,9 +600,9 @@
     :catchall_22
     move-exception v0
 
-    const-wide v1, -0x34feb49a02cfL
+    const-wide v1, -0xf744e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -510,7 +611,7 @@
     :cond_2f
     :goto_2f
     :try_start_2f
-    invoke-static {p0}, Lcom/android/internal/util/kaorios/KfAzq8kOeRfaI;->Kq5pt6AeqxqwOjab0R8ioI(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/android/internal/util/kaorios/K00oaOwyUnS4yEwadcr4I;->Kq5pt6AeqxqwOjab0R8ioI(Landroid/content/Context;)V
     :try_end_32
     .catchall {:try_start_2f .. :try_end_32} :catchall_33
 
@@ -519,9 +620,9 @@
     :catchall_33
     move-exception p0
 
-    const-wide v0, -0x3517b49a02cfL
+    const-wide v0, -0xf72fe37d0521L
 
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -544,7 +645,7 @@
 
     :cond_7
     :try_start_7
-    invoke-static {}, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->Kq4snztAiatOsRsxI()V
+    invoke-static {}, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->Kq4snztAiatOsRsxI()V
     :try_end_a
     .catchall {:try_start_7 .. :try_end_a} :catchall_b
 
@@ -553,9 +654,9 @@
     :catchall_b
     move-exception v0
 
-    const-wide v1, -0x352fb49a02cfL
+    const-wide v1, -0xf717e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -571,9 +672,9 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-wide v1, -0x34c6b49a02cfL
+    const-wide v1, -0xf77ce37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -581,9 +682,9 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-wide v1, -0x34d1b49a02cfL
+    const-wide v1, -0xf771e37d0521L
 
-    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object p0
 
@@ -603,12 +704,12 @@
 .method public static Ku5O3sihzbUhwSewE8uI()Z
     .registers 6
 
-    const-wide v0, -0x3473b49a02cfL
+    const-wide v0, -0xf0d3e37d0521L
 
     const/4 v2, 0x0
 
     :try_start_6
-    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -618,9 +719,9 @@
 
     move-result-object v0
 
-    const-wide v3, -0x3487b49a02cfL
+    const-wide v3, -0xf0bfe37d0521L
 
-    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v3
 
@@ -644,9 +745,9 @@
     return v3
 
     :cond_27
-    const-wide v4, -0x348eb49a02cfL
+    const-wide v4, -0xf0b4e37d0521L
 
-    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v4
 
@@ -690,9 +791,9 @@
     return v3
 
     :goto_49
-    const-wide v3, -0x34a9b49a02cfL
+    const-wide v3, -0xf099e37d0521L
 
-    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v1
 
@@ -716,7 +817,7 @@
 
     :cond_8
     :try_start_8
-    sget-object v0, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->Ku5O3sihzbUhwSewE8uI:Ljava/lang/String;
+    sget-object v0, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->Ku5O3sihzbUhwSewE8uI:Ljava/lang/String;
 
     invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
@@ -736,9 +837,9 @@
 
     move-result-object p0
 
-    const-wide v2, -0x28b2b49a02cfL
+    const-wide v2, -0xeb50e37d0521L
 
-    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -760,9 +861,9 @@
     :catchall_2e
     move-exception p0
 
-    const-wide v2, -0x362ab49a02cfL
+    const-wide v2, -0xf605e37d0521L
 
-    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -786,13 +887,13 @@
 
     :cond_8
     :try_start_8
-    sget-object v0, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->Ku5O3sihzbUhwSewE8uI:Ljava/lang/String;
+    sget-object v0, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->Ku5O3sihzbUhwSewE8uI:Ljava/lang/String;
 
     invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
     move-result v0
 
-    invoke-static {v0}, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->K91vAo8w086Op21a5bR8uI(I)Z
+    invoke-static {v0}, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->K91vAo8w086Op21a5bR8uI(I)Z
 
     move-result v2
 
@@ -814,9 +915,9 @@
 
     move-result-object p0
 
-    const-wide v4, -0x28b2b49a02cfL
+    const-wide v4, -0xeb50e37d0521L
 
-    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -851,9 +952,9 @@
     :catchall_3a
     move-exception p0
 
-    const-wide v2, -0x365ab49a02cfL
+    const-wide v2, -0xf6d5e37d0521L
 
-    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
@@ -877,7 +978,7 @@
 
     :cond_8
     :try_start_8
-    invoke-static {p0}, Lcom/android/internal/util/kaorios/KsAmmbt8OcdwRq3bI;->K91vAo8w086Op21a5bR8uI(I)Z
+    invoke-static {p0}, Lcom/android/internal/util/kaorios/Ktq7kOsU09e30ySmxm7wEpm9I;->K91vAo8w086Op21a5bR8uI(I)Z
 
     move-result p0
     :try_end_c
@@ -888,13 +989,100 @@
     :catchall_d
     move-exception p0
 
-    const-wide v2, -0x360ab49a02cfL
+    const-wide v2, -0xf625e37d0521L
 
-    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K91vAo8w086Op21a5bR8uI(J)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-static {v0, p0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->Kq5pt6AeqxqwOjab0R8ioI(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return v1
+.end method
+
+.method public static spoofProvider()V
+    .registers 5
+
+    const-wide v0, -0xf453e37d0521L
+
+    const/4 v2, 0x1
+
+    :try_start_6
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/security/KeyStore;->getInstance(Ljava/lang/String;)Ljava/security/KeyStore;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    const-wide v3, -0xf443e37d0521L
+
+    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v1, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/security/KeyStoreSpi;
+
+    sget v0, Lcom/android/internal/util/kaorios/Kpo04bmO26rUo47oegSdg6ckElbvcI;->Ku5O3sihzbUhwSewE8uI:I
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+    :try_end_2e
+    .catchall {:try_start_6 .. :try_end_2e} :catchall_2f
+
+    goto :goto_3d
+
+    :catchall_2f
+    const-wide v0, -0xf437e37d0521L
+
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "ToolboxUtils"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_3d
+    const-wide v0, -0xf417e37d0521L
+
+    invoke-static {v0, v1}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/security/Security;->getProvider(Ljava/lang/String;)Ljava/security/Provider;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/android/internal/util/kaorios/Kt9eAc1O9R0im9eI;
+
+    invoke-direct {v1, v0}, Lcom/android/internal/util/kaorios/Kt9eAc1O9R0im9eI;-><init>(Ljava/security/Provider;)V
+
+    const-wide v3, -0xf407e37d0521L
+
+    invoke-static {v3, v4}, Lcom/android/internal/util/kaorios/Ks23qmqAooOtt2x0xRh6I;->K7b6cynAykO75yzw1Ri5kI(J)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/security/Security;->removeProvider(Ljava/lang/String;)V
+
+    invoke-static {v1, v2}, Ljava/security/Security;->insertProviderAt(Ljava/security/Provider;I)I
+
+    return-void
 .end method

@@ -57,8 +57,8 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 
 ---
 ## 👉 Join KaoriosToolbox discussion group and channel
-**[KaoriosToolbox-Discussion](https://t.me/KariosToolboxDiscussion)**
 **[KaoriosToolbox-Chanel](https://t.me/KaoriosToolbox)**
+**[KaoriosToolbox-Discussion](https://t.me/KariosToolboxDiscussion)**
 
 ---
 ## 🙏 Credits

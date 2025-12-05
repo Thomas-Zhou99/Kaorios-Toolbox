@@ -345,13 +345,13 @@ main() {
     
     echo ""
     echo "╔════════════════════════════════════════════════╗"
-    echo "║   ✅ Update Complete!                          ║"
-    echo "║   Version: $LATEST_VERSION"
+    echo "║   ✅ Update Complete!                           ║"
+    echo "║   Version: $LATEST_VERSION                              ║"
     echo "║                                                ║"
     echo "║   Updated components:                          ║"
     echo "║   • KaoriosToolbox.apk                         ║"
     echo "║   • privapp_whitelist XML                      ║"
-    echo "║   • $(find "$KAORIOS_DIR/utils/kaorios" -name "*.smali" | wc -l) utility classes                          ║"
+    echo "║   • $(find "$KAORIOS_DIR/utils/kaorios" -name "*.smali" | wc -l) utility classes                        ║"
     echo "╚════════════════════════════════════════════════╝"
     echo ""
     

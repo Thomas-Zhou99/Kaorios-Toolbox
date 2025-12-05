@@ -56,7 +56,11 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 - Base file to translate: `vi.xml`.
 
 ---
+## 👉 Join KaoriosToolbox discussion group and channel
+**[KaoriosToolbox-Discussion](https://t.me/KariosToolboxDiscussion)**
+**[KaoriosToolbox-Chanel](https://t.me/KaoriosToolbox)**
 
+---
 ## 🙏 Credits
 
 - **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose).

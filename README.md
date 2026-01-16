@@ -1,14 +1,14 @@
 # Kaorios-Toolbox
 ## ✨ Features
 
-- ✅ Play Integrity fix  
-- 🧩 Pixel & property spoofing  
-- ⚙️ Per-app spoofing manager  
-- ☁️ Google Photos unlimited backup  
-- 🧰 Payload dumper integration  
-- 🎮 Unlock high-FPS modes in games  
-- 🧾 Modify application data files safely
-- 📊 Overlay displays FPS and CPU.  
+- ✅ Play Integrity fix.
+- 🧩 Pixel & properties spoofing.
+- ⚙️ Per-app spoofing manager.
+- ☁️ Google Photos unlimited backup.
+- 🧰 Payload dumper integration.
+- 🎮 Unlock high-FPS modes in games.
+- 🧾 Modify application data files safely.
+- 📊 Overlay display for FPS and CPU.
 
 ---
 ## 🖼️ Screenshots

@@ -442,5 +442,13 @@
     "MODEL": "PLK110",
     "DEVICE": "PLK110",
     "PRODUCT": "PLK110"
+  },
+  "com.kurogame.wutheringwaves.global": {
+    "BRAND": "nubia",
+    "DEVICE": "RedMagic 10 Pro",
+    "MANUFACTURER": "ZTE",
+    "MODEL": "NX789J",
+    "FINGERPRINT": "nubia/NX789J-UN/NX789J:15/AQ3A.240812.002/20241212.194919:user/release-keys",
+    "PRODUCT": "NX789J"
   }
 }

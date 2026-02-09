@@ -442,12 +442,5 @@
     "MODEL": "PLK110",
     "DEVICE": "PLK110",
     "PRODUCT": "PLK110"
-  },
-  "flar2.devcheck": {
-    "MANUFACTURER": "VIVO",
-    "BRAND": "VIVO",
-    "MODEL": "V2505A",
-    "DEVICE": "V2505A",
-    "PRODUCT": "V2505A"
   }
 }

@@ -1,4 +1,5 @@
-Keybox OK
-BASIC:  ✅
-DEVICE: ✅
-STRONG: ✅
+Keybox Revoked
+BASIC:  ❌
+DEVICE: ❌
+STRONG: ❌
+Please wait for the new Keybox...

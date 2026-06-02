@@ -1,14 +1,14 @@
 {
-  "TYPE": "user",
-  "TAGS": "release-keys",
-  "ID": "CP1A.260505.005.A1",
   "BRAND": "google",
-  "DEVICE": "blazer",
-  "FINGERPRINT": "google/blazer/blazer:16/CP1A.260505.005.A1/15265044:user/release-keys",
+  "DEVICE": "caiman",
+  "DEVICE_INITIAL_SDK_INT": "34",
+  "FINGERPRINT": "google\/caiman_beta\/caiman:CinnamonBun\/CP31.260423.012.A1\/15327290:user\/release-keys",
+  "ID": "CP31.260423.012.A1",
   "MANUFACTURER": "Google",
-  "MODEL": "Pixel 10 Pro",
-  "PRODUCT": "blazer",
-  "RELEASE": "16",
+  "MODEL": "Pixel 9 Pro",
+  "PRODUCT": "caiman_beta",
+  "RELEASE": "17",
   "SECURITY_PATCH": "2026-05-05",
-  "DEVICE_INITIAL_SDK_INT": "35"
+  "TAGS": "release-keys",
+  "TYPE": "user"
 }

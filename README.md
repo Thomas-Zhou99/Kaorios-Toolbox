@@ -56,9 +56,8 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 - Base file to translate: `vi.xml`.
 
 ---
-## 👉 Join KaoriosToolbox discussion group and channel
+## 👉 Join KaoriosToolbox
 - **[KaoriosToolbox-Chanel](https://t.me/KaoriosToolbox)**.
-
 - **[KaoriosToolbox-Discussion](https://t.me/KariosToolboxDiscussion)**.
 
 ---

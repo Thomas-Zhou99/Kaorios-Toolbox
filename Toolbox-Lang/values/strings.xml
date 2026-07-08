@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- @language type - by: @translator name -->
+    <!-- #language type - by: @translator name -->
 
     <!-- Common -->
     <string name="common_reset_to_default">Reset to default</string>

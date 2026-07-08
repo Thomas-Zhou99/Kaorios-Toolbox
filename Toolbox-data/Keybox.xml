@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <AndroidAttestation>
 <NumberOfKeyboxes>1</NumberOfKeyboxes>
-<Keybox DeviceID="KaoriosToolbox">
+<Keybox DeviceID="@Xiaomi_Lei_Jun">
 <Key algorithm="ecdsa">
 <PrivateKey format="pem">
 -----BEGIN EC PRIVATE KEY-----

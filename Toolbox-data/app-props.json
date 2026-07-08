@@ -1,7 +1,7 @@
 {
   "com.activision.callofduty.shooter": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+    "MANUFACTURER": "Lenovo",
+    "MODEL": "TB321FU"
   },
   "com.clashoftitansandroid.india": {
     "BRAND": "realme",
@@ -117,16 +117,12 @@
     "MODEL": "ASUS_AI2201"
   },
   "com.mobile.legends": {
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PLK110"
+    "MANUFACTURER": "Lenovo",
+    "MODEL": "TB321FU"
   },
   "com.mobilelegends.mi": {
-    "MANUFACTURER": "ZTE",
-    "BRAND": "nubia",
-    "MODEL": "NX769J",
-    "DEVICE": "REDMAGIC 9 Pro",
-    "PRODUCT": "NX769J",
-    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys"
+    "MANUFACTURER": "Lenovo",
+    "MODEL": "TB321FU"
   },
   "com.netease.lztgglobal": {
     "MANUFACTURER": "OnePlus",

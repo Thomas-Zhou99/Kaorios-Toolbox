@@ -225,15 +225,9 @@ while [ "\$(getprop sys.boot_completed)" != "1" ]; do
   sleep 1
 done
 
-# Install the APK if not already installed or if updated
-APK_PATH="\$MODDIR/system/product/priv-app/KaoriosToolbox/KaoriosToolbox.apk"
-PKG_NAME="com.kousei.kaorios"
-
-if [ -f "\$APK_PATH" ]; then
-    # Check if package is installed
-    if ! pm list packages | grep -q "\$PKG_NAME"; then
-        pm install -r "\$APK_PATH"
-    fi
+# Install Kaorios Toolbox as user app (update) if present
+if [ -f "\$MODDIR/system/product/priv-app/KaoriosToolbox/KaoriosToolbox.apk" ]; then
+  pm install -r "\$MODDIR/system/product/priv-app/KaoriosToolbox/KaoriosToolbox.apk" >/dev/null 2>&1
 fi
 EOF
     chmod +x "$build_dir/service.sh"
@@ -268,8 +262,13 @@ EOF
         unzip -q "$apk_source" "lib/*" -d "$temp_extract" 2>/dev/null
         
         if [ -d "$temp_extract/lib" ]; then
-             cp -r "$temp_extract/lib/"* "$build_dir/system/product/priv-app/KaoriosToolbox/lib/"
-             log "✓ Extracted native libraries from APK"
+             # Extract and rename libraries to simplified names
+             [ -d "$temp_extract/lib/armeabi-v7a" ] && cp -r "$temp_extract/lib/armeabi-v7a" "$build_dir/system/product/priv-app/KaoriosToolbox/lib/arm"
+             [ -d "$temp_extract/lib/arm64-v8a" ] && cp -r "$temp_extract/lib/arm64-v8a" "$build_dir/system/product/priv-app/KaoriosToolbox/lib/arm64"
+             [ -d "$temp_extract/lib/x86" ] && cp -r "$temp_extract/lib/x86" "$build_dir/system/product/priv-app/KaoriosToolbox/lib/x86"
+             [ -d "$temp_extract/lib/x86_64" ] && cp -r "$temp_extract/lib/x86_64" "$build_dir/system/product/priv-app/KaoriosToolbox/lib/x86_64"
+             
+             log "✓ Extracted and renamed native libraries from APK"
         else
              warn "No native libraries found in APK or extraction failed"
         fi

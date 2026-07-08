@@ -83,6 +83,15 @@ main() {
     # Recompile framework.jar
     recompile_jar "$framework_path"
 
+    # Optimize with D8
+    export D8_CMD="${D8_CMD:-$HOME/android-sdk/build-tools/36.1.0/d8}"
+    local patched_jar="${framework_path%.*}_patched.jar"
+    if [ -f "$patched_jar" ]; then
+        d8_optimize_jar "$patched_jar"
+    else
+        echo "❌ Error: Patched JAR not found at $patched_jar"
+    fi
+
     # Clean up
     rm -rf "$decompile_dir"
 

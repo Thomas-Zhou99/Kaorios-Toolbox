@@ -48,7 +48,7 @@ hasSystemFeature(Ljava/lang/String;)Z
 ```
 > Replace all method (skip if bootloop):
 ```
-.method public hasSystemFeature(Ljava/lang/String;)Z
+.method public hasSystemFeatureTests(Ljava/lang/String;)Z
     .registers 3
 
     const/4 v0, 0x0
@@ -57,10 +57,14 @@ hasSystemFeature(Ljava/lang/String;)Z
 
     move-result p0
 
+    :try_start_kousei
     invoke-static {p0, p1}, Lcom/android/internal/util/kaorios/KaoriPropsUtils;->KaoriFeatureBlock(ZLjava/lang/String;)Z
 
     move-result p0
+    :try_end_kaorios
+    .catchall {:try_start_kousei .. :try_end_kaorios} :catchall_kaorios
 
+    :catchall_kaorios
     return p0
 .end method
 

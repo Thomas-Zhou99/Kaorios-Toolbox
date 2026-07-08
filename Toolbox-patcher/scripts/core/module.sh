@@ -174,15 +174,14 @@ create_kaorios_module() {
     rm -f "$build_dir/config.sh" "$build_dir/customize.sh" "$build_dir/module.prop"
     rm -f "$build_dir/service.sh" "$build_dir/post-fs-data.sh" "$build_dir/system.prop"
     rm -f "$build_dir/sepolicy.rule" "$build_dir/uninstall.sh" "$build_dir/update.json"
+    rm -f "$build_dir/install.zip" "$build_dir/.gitattributes" "$build_dir/.gitignore"
     
     rm -rf "$build_dir/common" "$build_dir/system" "$build_dir/zygisk"
     
     
     mkdir -p "$build_dir/system/framework"
-    mkdir -p "$build_dir/system/priv-app/KaoriosToolbox/lib"
-    mkdir -p "$build_dir/system/etc/permissions"
-
-    mkdir -p "$build_dir/system/etc/permissions"
+    mkdir -p "$build_dir/system/product/priv-app/KaoriosToolbox/lib"
+    mkdir -p "$build_dir/system/product/etc/permissions"
 
     cat > "$build_dir/module.prop" <<EOF
 id=kaorios_framework
@@ -227,7 +226,7 @@ while [ "\$(getprop sys.boot_completed)" != "1" ]; do
 done
 
 # Install the APK if not already installed or if updated
-APK_PATH="\$MODDIR/system/priv-app/KaoriosToolbox/KaoriosToolbox.apk"
+APK_PATH="\$MODDIR/system/product/priv-app/KaoriosToolbox/KaoriosToolbox.apk"
 PKG_NAME="com.kousei.kaorios"
 
 if [ -f "\$APK_PATH" ]; then
@@ -239,13 +238,9 @@ fi
 EOF
     chmod +x "$build_dir/service.sh"
 
-    chmod +x "$build_dir/service.sh"
-
     mkdir -p "$build_dir/system/framework"
-    mkdir -p "$build_dir/system/priv-app/KaoriosToolbox/lib"
-    mkdir -p "$build_dir/system/etc/permissions"
-
-    mkdir -p "$build_dir/system/etc/permissions"
+    mkdir -p "$build_dir/system/product/priv-app/KaoriosToolbox/lib"
+    mkdir -p "$build_dir/system/product/etc/permissions"
 
     if [ -f "framework_patched.jar" ]; then
         cp "framework_patched.jar" "$build_dir/system/framework/framework.jar"
@@ -261,9 +256,7 @@ EOF
 
     local apk_source="kaorios_toolbox/KaoriosToolbox.apk"
     if [ -f "$apk_source" ]; then
-        cp "$apk_source" "$build_dir/system/priv-app/KaoriosToolbox/"
-        log "✓ Added KaoriosToolbox.apk"
-
+        cp "$apk_source" "$build_dir/system/product/priv-app/KaoriosToolbox/"
         log "✓ Added KaoriosToolbox.apk"
 
         # Extract libs
@@ -275,7 +268,7 @@ EOF
         unzip -q "$apk_source" "lib/*" -d "$temp_extract" 2>/dev/null
         
         if [ -d "$temp_extract/lib" ]; then
-             cp -r "$temp_extract/lib/"* "$build_dir/system/priv-app/KaoriosToolbox/lib/"
+             cp -r "$temp_extract/lib/"* "$build_dir/system/product/priv-app/KaoriosToolbox/lib/"
              log "✓ Extracted native libraries from APK"
         else
              warn "No native libraries found in APK or extraction failed"
@@ -287,7 +280,7 @@ EOF
 
     local perm_source="kaorios_toolbox/privapp_whitelist_com.kousei.kaorios.xml"
     if [ -f "$perm_source" ]; then
-        cp "$perm_source" "$build_dir/system/etc/permissions/"
+        cp "$perm_source" "$build_dir/system/product/etc/permissions/"
         log "✓ Added permission XML"
     else
         warn "Permission XML not found at $perm_source"

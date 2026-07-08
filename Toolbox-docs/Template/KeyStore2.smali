@@ -21,6 +21,7 @@
 
     check-cast v0, Landroid/system/keystore2/KeyEntryResponse;
 
+    ###Kousei added
     invoke-static {v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosKeybox(Landroid/system/keystore2/KeyEntryResponse;)Landroid/system/keystore2/KeyEntryResponse;
 
     move-result-object v0

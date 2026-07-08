@@ -18,7 +18,7 @@ Follow the detailed usage guide here:
 
 ---
 
-## �️ Framework Patcher
+## ⚙️ Framework Patcher
 
 You can easily patch your `framework.jar` using GitHub Actions without needing to set up a local environment.
 
@@ -31,7 +31,7 @@ You can easily patch your `framework.jar` using GitHub Actions without needing t
 
 ---
 
-## �🖼️ Screenshots
+## 🖼️ Screenshots
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/main/Toolbox-Screenshot/Home_Screen.jpg">

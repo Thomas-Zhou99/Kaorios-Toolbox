@@ -40,6 +40,22 @@ ro.control_privapp_permissions=
 ```
 ApplicationPackageManager
 ```
+> add filed:
+```
+.field private final mContext:Landroid/content/Context;
+```
+> add method:
+```
+.method public constructor <init>(Landroid/content/Context;)V
+    .registers 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroid/app/ApplicationPackageManager;->mContext:Landroid/content/Context;
+
+    return-void
+.end method
+```
 
 > ### Method:
 ```

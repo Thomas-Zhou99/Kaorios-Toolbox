@@ -52,9 +52,10 @@ return vX
 
 **A13-14-15**
 ```
-invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV2(Ljava/lang/String;Z)Z
+invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV1(Ljava/lang/String;IZ)Z
 
     move-result vX
+
 ```
 **A16**
 ```

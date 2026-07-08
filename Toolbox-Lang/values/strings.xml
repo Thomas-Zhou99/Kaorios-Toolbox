@@ -87,6 +87,16 @@
     <string name="features_title_controls">Feature controls</string>
     <string name="features_snackbar_recommended_toggle">This feature is recommended to stay enabled.</string>
     <string name="features_content_description_recommended">Recommended</string>
+    <string name="features_prop_section_title">System properties</string>
+    <string name="features_prop_button_open">Set system property</string>
+    <string name="features_prop_dialog_title">Set system property</string>
+    <string name="features_prop_key_label">Property name</string>
+    <string name="features_prop_value_label">Value (leave empty to clear)</string>
+    <string name="features_prop_button_load">Load current value</string>
+    <string name="features_prop_message_loaded">Current value: %1$s</string>
+    <string name="features_prop_message_loaded_empty">Current value: (empty)</string>
+    <string name="features_prop_error_empty_key">Please enter a property name.</string>
+    <string name="features_prop_result_failed">setprop: failed (bridge unavailable)</string>
 
     <!-- Hidden Tools -->
     <string name="hidden_group_sensitive_title">Sensitive options</string>
@@ -250,8 +260,6 @@
     <string name="settings_dialog_primary_color_hex_label">Color code #RRGGBB</string>
     <string name="settings_language_title">Language</string>
     <string name="settings_language_system">Use device language</string>
-    <string name="settings_language_english">English</string>
-    <string name="settings_language_vietnamese">Tiếng Việt</string>
     <string name="settings_language_dialog_title">Choose language</string>
 
     <!-- Tools -->

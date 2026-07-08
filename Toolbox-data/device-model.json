@@ -267,7 +267,6 @@
       "DEVICE": "PLK110",
       "MANUFACTURER": "OnePlus",
       "MODEL": "PLK110",
-      "FINGERPRINT": "",
       "PRODUCT": "PLK110"
     },
     {
@@ -276,16 +275,14 @@
       "DEVICE": "V2505A",
       "MANUFACTURER": "VIVO",
       "MODEL": "V2505A",
-      "FINGERPRINT": "",
       "PRODUCT": "V2505A"
     },
     {
-      "name": "红魔平板3",
+      "name": "Redmgic tablet 3",
       "BRAND": "NUBIA",
       "DEVICE": "NP05J",
       "MANUFACTURER": "NUBIA",
       "MODEL": "NP05J",
-      "FINGERPRINT": "",
       "PRODUCT": "NP05J"
     },
     {

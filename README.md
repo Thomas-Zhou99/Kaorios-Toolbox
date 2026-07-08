@@ -56,11 +56,4 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 
 ## 🙏 Credits
 
-- **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose)
-
----
-
-## 📜 License
-
-This project is licensed under the **Apache License 2.0**.  
-See the [LICENSE](LICENSE) file for details.
+- **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose).

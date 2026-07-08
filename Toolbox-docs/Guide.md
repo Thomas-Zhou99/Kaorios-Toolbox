@@ -6,7 +6,7 @@
 - **Add app directory:**
   - Copy the **KaoriosToolbox** folder to: `/system_ext/priv-app/` or `/product/priv-app/`
 - **Copy files:**
-  - Copy `privapp_whitelist_com.kousei.kaorios.xml` → `/system/etc/permissions/`
+  - Copy `privapp_whitelist_com.kousei.kaorios.xml` → `/system_ext/etc/permissions/` or `/product/etc/permissons/`
 - **Permissions:**
   - Directories: `0755` (e.g., `KaoriosToolbox`, `lib`, `lib/*`)
   - Files: `0644` (for `.xml`, `.apk`, and any `.so`)

@@ -5,5 +5,5 @@ framework.jar
 .idea/
 node_modules/
 Toolbox-patcher/framework_patched.jar
-Toolbox-patcher/framework_decompile/
+# Toolbox-patcher/framework_decompile/
 Toolbox-patcher/backup/

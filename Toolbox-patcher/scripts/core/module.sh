@@ -117,3 +117,188 @@ REPLACE="\
 create_magisk_module() {
     create_module "$1" "$2" "$3" "magisk"
 }
+
+create_kaorios_module() {
+    local device_name="Generic"
+    local version_name="1.0"
+    local template_url="https://github.com/topjohnwu/magisk-module-template/archive/refs/heads/master.zip"
+    local template_zip="templates/magisk_module_template.zip"
+
+    log "Creating Kaorios Framework module..."
+
+    local build_dir="build_kaorios_module"
+    rm -rf "$build_dir"
+    
+    # Ensure templates directory exists
+    mkdir -p "templates"
+
+    # Download template if not present
+    if [ ! -f "$template_zip" ]; then
+        log "Downloading module template..."
+        if command -v curl >/dev/null 2>&1; then
+            curl -L -o "$template_zip" "$template_url" || {
+                err "Failed to download template with curl"
+                return 1
+            }
+        elif command -v wget >/dev/null 2>&1; then
+            wget -O "$template_zip" "$template_url" || {
+                err "Failed to download template with wget"
+                return 1
+            }
+        else
+            err "No download tool found (curl or wget)"
+            return 1
+        fi
+    fi
+
+    # Extract template
+    log "Extracting template..."
+    unzip -q "$template_zip" -d "templates_extract_temp"
+    
+    # Move extracted contents to build_dir (handling the top-level directory in zip)
+    # The zip usually contains a folder like magisk-module-template-master
+    local extracted_root
+    extracted_root=$(find "templates_extract_temp" -maxdepth 1 -mindepth 1 -type d | head -n 1)
+    
+    if [ -n "$extracted_root" ]; then
+        mv "$extracted_root" "$build_dir"
+    else
+        err "Failed to find extracted template root"
+        rm -rf "templates_extract_temp"
+        return 1
+    fi
+    rm -rf "templates_extract_temp"
+
+    # Clean up unnecessary template files
+    rm -f "$build_dir/README.md" "$build_dir/changelog.md" "$build_dir/LICENSE"
+    rm -rf "$build_dir/.git" "$build_dir/.github"
+
+    # 1. module.prop
+    cat > "$build_dir/module.prop" <<EOF
+id=kaorios_framework
+name=Kaorios Framework Patch
+version=v${version_name}
+versionCode=1
+author=Kousei
+description=Patched framework.jar with Kaorios Toolbox integration.
+minMagisk=20400
+EOF
+
+    # 2. customize.sh
+    cat > "$build_dir/customize.sh" <<EOF
+SKIPUNZIP=1
+
+# Extract module files
+ui_print "- Extracting module files"
+unzip -o "\$ZIPFILE" -x 'META-INF/*' -d "\$MODPATH" >&2
+
+# Set permissions
+set_perm_recursive "\$MODPATH" 0 0 0755 0644
+
+# Install KaoriosToolbox as user app
+if [ -f "\$MODPATH/service.sh" ]; then
+  chmod +x "\$MODPATH/service.sh"
+fi
+EOF
+
+    # 3. system.prop
+    cat > "$build_dir/system.prop" <<EOF
+# Kaorios Toolbox
+persist.sys.kaorios=kousei
+# Leave the value after the = sign blank.
+ro.control_privapp_permissions=
+EOF
+
+    # 4. service.sh (Install app as user app)
+    cat > "$build_dir/service.sh" <<EOF
+#!/system/bin/sh
+MODDIR=\${0%/*}
+
+# Wait for boot to complete
+while [ "\$(getprop sys.boot_completed)" != "1" ]; do
+  sleep 1
+done
+
+# Install the APK if not already installed or if updated
+APK_PATH="\$MODDIR/system/priv-app/KaoriosToolbox/KaoriosToolbox.apk"
+PKG_NAME="com.kousei.kaorios"
+
+if [ -f "\$APK_PATH" ]; then
+    # Check if package is installed
+    if ! pm list packages | grep -q "\$PKG_NAME"; then
+        pm install -r "\$APK_PATH"
+    fi
+fi
+EOF
+    chmod +x "$build_dir/service.sh"
+
+    # 4. Create directory structure
+    mkdir -p "$build_dir/system/framework"
+    mkdir -p "$build_dir/system/priv-app/KaoriosToolbox/lib"
+    mkdir -p "$build_dir/system/etc/permissions"
+
+    # 5. Copy framework.jar
+    if [ -f "framework_patched.jar" ]; then
+        cp "framework_patched.jar" "$build_dir/system/framework/framework.jar"
+        log "✓ Added framework_patched.jar"
+    else
+        warn "framework_patched.jar not found!"
+    fi
+    
+    # 6. Copy services.jar (if patched)
+     if [ -f "services_patched.jar" ]; then
+        cp "services_patched.jar" "$build_dir/system/framework/services.jar"
+        log "✓ Added services_patched.jar"
+    fi
+
+    # 7. Copy KaoriosToolbox.apk and extract libs
+    local apk_source="kaorios_toolbox/KaoriosToolbox.apk"
+    if [ -f "$apk_source" ]; then
+        cp "$apk_source" "$build_dir/system/priv-app/KaoriosToolbox/"
+        log "✓ Added KaoriosToolbox.apk"
+
+        # Extract libs
+        # We need to determine the architecture or just extract all supported ones
+        # For simplicity, let's extract arm64-v8a and armeabi-v7a if present
+        
+        # Create temp dir for extraction
+        local temp_extract="temp_apk_extract"
+        mkdir -p "$temp_extract"
+        unzip -q "$apk_source" "lib/*" -d "$temp_extract" 2>/dev/null
+        
+        if [ -d "$temp_extract/lib" ]; then
+             cp -r "$temp_extract/lib/"* "$build_dir/system/priv-app/KaoriosToolbox/lib/"
+             log "✓ Extracted native libraries from APK"
+        else
+             warn "No native libraries found in APK or extraction failed"
+        fi
+        rm -rf "$temp_extract"
+    else
+        warn "KaoriosToolbox.apk not found at $apk_source"
+    fi
+
+    # 8. Copy permissions XML
+    local perm_source="kaorios_toolbox/privapp_whitelist_com.kousei.kaorios.xml"
+    if [ -f "$perm_source" ]; then
+        cp "$perm_source" "$build_dir/system/etc/permissions/"
+        log "✓ Added permission XML"
+    else
+        warn "Permission XML not found at $perm_source"
+    fi
+
+    # 9. Zip it up
+    local zip_name="kaoriosFramework.zip"
+    rm -f "$zip_name"
+    
+    if command -v 7z >/dev/null 2>&1; then
+        (cd "$build_dir" && 7z a -tzip "../$zip_name" "*" >/dev/null)
+    elif command -v zip >/dev/null 2>&1; then
+        (cd "$build_dir" && zip -r "../$zip_name" . >/dev/null)
+    else
+        err "No archiver found (7z or zip)"
+        return 1
+    fi
+
+    log "Created module: $zip_name"
+    echo "$zip_name"
+}

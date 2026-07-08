@@ -2,8 +2,7 @@
 
 ## Step 1: Download & place system files
 
-- **Download** `KaoriosToolbox.apk`, `privapp_whitelist_com.kousei.kaorios.xml`, and `classes.dex` from:  
-  https://github.com/Wuang26/Kaorios-Toolbox/releases
+- **Download** `App & Xml`, and `classes.dex` from: **[releases](https://github.com/Wuang26/Kaorios-Toolbox/releases)**
 - **Add app directory:**
   - Copy the **KaoriosToolbox** folder to: `/system/priv-app/`
 - **Copy files:**
@@ -30,50 +29,64 @@ Import **classes.dex** into the **last classes** of `framework.jar` (append as t
 
 ## Step 4: Patch `framework.jar` classes
 
-> **Note:** If you are unsure about the exact injection spots, please refer to the **sample .smali templates** in the repo’s `Toolbox-docs/Template` folder.
+> **Note:** If you are unsure about the exact injection spots, please refer to the **sample .smali templates** in the repo’s **[Toolbox-docs/Template](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs/Template)** folder.
 
-### Class: `ApplicationPackageManager`
+### Class:
+```
+ApplicationPackageManager
+```
 
-#### Method: `hasSystemFeature(Ljava/lang/String;)Z`
+#### Method:
+```
+hasSystemFeature(Ljava/lang/String;)Z
+```
 
 Find:
 ```
 return v0
-.end method
+    .end method
 ```
 
 Add **above**:
 ```
 invoke-static {v0, p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosAttestationBL(ZLjava/lang/String;)Z
-move-result v0
+    move-result v0
 ```
 
 ---
 
-#### Method: `hasSystemFeature(Ljava/lang/String;I)Z`
+#### Method:
+```
+hasSystemFeature(Ljava/lang/String;I)Z
+```
 
 Find:
 ```
 return v0
-.end method
+    .end method
 ```
 
 Add **above**:
 ```
 invoke-static {p1, p2, v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeatures(Ljava/lang/String;IZ)Z
-move-result v0
+    move-result v0
 ```
 
 ---
 
-### Class: `Instrumentation`
+### Class:
+```
+Instrumentation
+```
 
-#### Method: `newApplication(Ljava/lang/Class;Landroid/content/Context;)Landroid/app/Application;`
-
+#### Method:
+```
+newApplication(Ljava/lang/Class;Landroid/content/Context;)Landroid/app/Application;
+```
 Find:
 ```
 return-object v0
-.end method
+    .end method
 ```
 
 Add **above**:
@@ -83,12 +96,15 @@ invoke-static {p1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosPro
 
 ---
 
-#### Method: `newApplication(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Context;)Landroid/app/Application;`
+#### Method:
+```
+newApplication(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Context;)Landroid/app/Application;
+```
 
 Find:
 ```
 return-object v0
-.end method
+    .end method
 ```
 
 Add **above**:
@@ -98,27 +114,38 @@ invoke-static {p3}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosPro
 
 ---
 
-### Class: `KeyStore2`
-
-#### Method: `getKeyEntry(Landroid/system/keystore2/KeyDescriptor;)Landroid/system/keystore2/KeyEntryResponse;`
+### Class:
+```
+KeyStore2
+```
+#### Method:
+```
+getKeyEntry(Landroid/system/keystore2/KeyDescriptor;)Landroid/system/keystore2/KeyEntryResponse;
+```
 
 Find:
 ```
 return-object v0
-.end method
+    .end method
 ```
 
 Add **above**:
 ```
 invoke-static {v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosKeybox(Landroid/system/keystore2/KeyEntryResponse;)Landroid/system/keystore2/KeyEntryResponse;
-move-result-object v0
+    move-result-object v0
 ```
 
 ---
 
-### Class: `AndroidKeyStoreSpi`
+### Class:
+```
+AndroidKeyStoreSpi
+```
 
-#### Method: `engineGetCertificateChain(Ljava/lang/String;)[Ljava/security/cert/Certificate;`
+#### Method:
+```
+engineGetCertificateChain(Ljava/lang/String;)[Ljava/security/cert/Certificate;
+```
 
 Add **below** `.registers XX`:
 ```

@@ -36,5 +36,5 @@ jobs:
       - name: Upload Patched Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: framework-patchedhttps://github.com/AxionAOSP/PlayIntegrityFix.git
+          name: framework-patched
           path: framework-patcher/framework_patched.jar

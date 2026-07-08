@@ -1,6 +1,7 @@
 <resources>
+    
     <!-- indonesian - by: Az-Har Muhamad Nayif -->
-  
+    
     <!-- Common -->
     <string name="common_reset_to_default">Atur ulang ke default</string>
     <string name="common_snackbar_permission_needed">Mohon izinkan izin sebelum mengatur ulang.</string>
@@ -250,8 +251,6 @@
     <string name="settings_dialog_primary_color_hex_label">Kode warna #RRGGBB</string>
     <string name="settings_language_title">Bahasa</string>
     <string name="settings_language_system">Gunakan bahasa perangkat</string>
-    <string name="settings_language_english">English</string>
-    <string name="settings_language_vietnamese">Tiếng Việt</string>
     <string name="settings_language_dialog_title">Pilih bahasa</string>
 
     <!-- Tools -->

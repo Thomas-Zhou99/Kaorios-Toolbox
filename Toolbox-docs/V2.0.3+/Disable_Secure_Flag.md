@@ -108,4 +108,5 @@ invoke-static {}, Landroid/security/kaorios/KaoriosHook;->isSecureFlag()Z
 ```
 
 **Add +1 to the Registers number, and replace vX with the new register.**
+
 **In some ROMs, this method may not find the blocking code, so it can be skipped.**

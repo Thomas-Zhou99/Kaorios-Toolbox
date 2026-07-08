@@ -40,33 +40,7 @@ Import **classes.dex** into the **last classes** of `framework.jar` (append as t
 ApplicationPackageManager
 ```
 
-#### Method:
-```
-hasSystemFeature(Ljava/lang/String;I)Z
-```
-
-in method find:
-```
-return vX
-    .end method
-```
-
-**add this code above the just found**:
-**change "vX" to match your method**:
-
-**A13-14-15**
-```
-invoke-static {p1, p2, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV1(Ljava/lang/String;IZ)Z
-
-    move-result vX
-
-```
-**A16**
-```
-invoke-static {p1, vX}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV2(Ljava/lang/String;Z)Z
-
-    move-result vX
-```
+Follow the instructions of this file: **[Toolbox-docs/ApplicationPackageManager](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs/Class-guide)**
 ---
 
 ### Class:

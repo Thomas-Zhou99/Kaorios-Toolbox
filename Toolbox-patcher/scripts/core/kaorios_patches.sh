@@ -787,30 +787,50 @@ while i < len(lines):
     if '.method ' in line and 'engineGetCertificateChain' in line:
         in_method = True
 
-    # If we're in the method and find .registers or .locals line
-    if in_method and ('.registers' in line or '.locals' in line):
-        # Check if patch already exists on next line
-        if i + 1 < len(lines) and 'ToolboxUtils;->KaoriosPropsEngineGetCertificateChain' in lines[i+1]:
-            in_method = False
-            i += 1
-            continue
+    if in_method:
+        # Patch 1: Add KaoriosPropsEngineGetCertificateChain after .registers/.locals
+        if ('.registers' in line or '.locals' in line):
+            # Check if patch already exists on next line
+            if i + 1 < len(lines) and 'ToolboxUtils;->KaoriosPropsEngineGetCertificateChain' in lines[i+1]:
+                pass # Already patched, continue to look for second patch
+            else:
+                # Get indentation
+                indent = re.match(r'^\s*', line).group(0)
 
-        # Get indentation
-        indent = re.match(r'^\s*', line).group(0)
+                # Insert the patch line after .registers
+                patch_lines = [
+                    '',
+                    f'{indent}invoke-static {{}}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosPropsEngineGetCertificateChain()V'
+                ]
 
-        # Insert the patch line after .registers
-        patch_lines = [
-            '',
-            f'{indent}invoke-static {{}}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosPropsEngineGetCertificateChain()V'
-        ]
+                for j, patch_line in enumerate(patch_lines):
+                    lines.insert(i + 1 + j, patch_line)
 
-        for j, patch_line in enumerate(patch_lines):
-            lines.insert(i + 1 + j, patch_line)
+                modified = True
+                i += len(patch_lines) # Skip inserted lines
 
-        modified = True
-        i += len(patch_lines) + 1
-        in_method = False
-        continue
+        # Patch 2: Add KaoriosKeybox before "const/4 v4, 0x0" followed by "aput-object v2, v3, v4"
+        if 'const/4 v4, 0x0' in line:
+            if i + 1 < len(lines) and 'aput-object v2, v3, v4' in lines[i+1]:
+                # Check if patch already exists
+                if i > 0 and 'ToolboxUtils;->KaoriosKeybox' in lines[i-1]:
+                    pass
+                else:
+                    # Get indentation
+                    indent = re.match(r'^\s*', line).group(0)
+
+                    # Insert patch
+                    patch_lines = [
+                        f'{indent}invoke-static {{v3}}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosKeybox([Ljava/security/cert/Certificate;)[Ljava/security/cert/Certificate;',
+                        f'{indent}move-result-object v3',
+                        ''
+                    ]
+                    
+                    for j, patch_line in enumerate(patch_lines):
+                        lines.insert(i + j, patch_line)
+                    
+                    modified = True
+                    i += len(patch_lines) # Skip inserted lines
 
     if '.end method' in line:
         in_method = False

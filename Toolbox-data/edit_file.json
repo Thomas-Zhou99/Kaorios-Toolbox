@@ -1,20 +1,61 @@
 {
-"com.riotgames.league.teamfighttactics":[{
-"filename":"/data/data/com.riotgames.league.teamfighttactics/no_backup/Config/Game.cfg",
-"findText":"WaitForVerticalSync=0",
-"replaceText":"WaitForVerticalSync=1",
-"enabled": true,
-"desc":"Bật VSync cho TFT"}],
-"com.riotgames.league.teamfighttacticstw":[{
-"filename":"/data/data/com.riotgames.league.teamfighttacticstw/no_backup/Config/Game.cfg",
-"findText":"WaitForVerticalSync=0",
-"replaceText":"WaitForVerticalSync=1",
-"enabled": true,
-"desc":"Bật VSync cho TFT TW"}],
-"com.riotgames.league.teamfighttacticsvn":[{
-"filename":"/data/data/com.riotgames.league.teamfighttacticsvn/no_backup/Config/Game.cfg",
-"findText":"WaitForVerticalSync=0",
-"replaceText":"WaitForVerticalSync=1",
-"enabled":true,
-"desc":"Bật VSync cho TFT VN"}]
+  "packages": [
+    {
+      "name": "com.riotgames.league.teamfighttactics",
+      "roots": [
+        {
+          "basePath": "/data/data/com.riotgames.league.teamfighttactics/no_backup",
+          "walkChildren": false
+        }
+      ],
+      "ops": [
+        {
+          "type": "search-replace-text",
+          "relativePath": "Config/Game.cfg",
+          "search": "WaitForVerticalSync=0",
+          "replace": "WaitForVerticalSync=1",
+          "encoding": "UTF-8",
+          "maxReplacements": 1
+        }
+      ]
+    },
+    {
+      "name": "com.riotgames.league.teamfighttacticstw",
+      "roots": [
+        {
+          "basePath": "/data/data/com.riotgames.league.teamfighttacticstw/no_backup",
+          "walkChildren": false
+        }
+      ],
+      "ops": [
+        {
+          "type": "search-replace-text",
+          "relativePath": "Config/Game.cfg",
+          "search": "WaitForVerticalSync=0",
+          "replace": "WaitForVerticalSync=1",
+          "encoding": "UTF-8",
+          "maxReplacements": 1
+        }
+      ]
+    },
+    {
+      "name": "com.riotgames.league.teamfighttacticsvn",
+      "roots": [
+        {
+          "basePath": "/data/data/com.riotgames.league.teamfighttacticsvn/no_backup",
+          "walkChildren": false
+        }
+      ],
+      "ops": [
+        {
+          "type": "search-replace-text",
+          "relativePath": "Config/Game.cfg",
+          "search": "WaitForVerticalSync=0",
+          "replace": "WaitForVerticalSync=1",
+          "encoding": "UTF-8",
+          "maxReplacements": 1
+        }
+      ]
+    }
+  ]
 }

@@ -1,210 +1,279 @@
 {
-  "PACKAGES_REDMAGIC_9_PRO": [
-    "com.mobilelegends.mi",
-    "com.supercell.brawlstars",
-    "com.blizzard.diablo.immortal",
-    "com.netease.newspike",
-    "com.activision.callofduty.warzone",
-    "com.pubg.newstate",
-    "com.gamedevltd.destinywarfare",
-    "com.pikpok.dr2.play",
-    "com.CarXTech.highWay",
-    "com.nekki.shadowfight3",
-    "com.nekki.shadowfightarena",
-    "com.gameloft.android.ANMP.GloftA8HM",
-    "com.nekki.shadowfight",
-    "com.ea.game.nfs14_row",
-    "com.ea.games.r3_row",
-    "com.supercell.squad",
-    "com.blitzteam.battleprime",
-    "com.tencent.tmgp.gnyx",
-    "com.garena.game.df",
-    "com.ss.android.ugc.trill",
-    "com.zhiliaoapp.musically"
-  ],
-  "PACKAGES_REDMAGIC_9_PRO_DEVICE": {
-    "BRAND": "nubia",
-    "DEVICE": "REDMAGIC 9 Pro",
-    "MANUFACTURER": "ZTE",
-    "MODEL": "NX769J",
-    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys",
-    "PRODUCT": "NX769J"
+  "com.netflix.mediaclient": {
+    "BRAND": "google",
+    "DEVICE": "mustang",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 10 Pro XL",
+    "FINGERPRINT": "google/mustang/mustang:16/BD3A.251005.003.W3/14147046:user/release-keys",
+    "PRODUCT": "mustang"
   },
-  "PACKAGES_BLACK_SHARK_4_(CHINA)": [
-    "com.proximabeta.mf.uamo"
-  ],
-  "PACKAGES_BLACK_SHARK_4_(CHINA)_DEVICE": {
-    "BRAND": "Black Shark",
-    "DEVICE": "Black Shark 4 (China)",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2SM-X706B",
-    "FINGERPRINT": "BlackShark/PRS-H0/Black Shark 4:13/TQ3A.230805.001/20230315:user/release-keys",
-    "PRODUCT": "2SM-X706B"
+  "com.nhs.online.nhsonline": {
+    "BRAND": "google",
+    "DEVICE": "mustang",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 10 Pro XL",
+    "FINGERPRINT": "google/mustang/mustang:16/BD3A.251005.003.W3/14147046:user/release-keys",
+    "PRODUCT": "mustang"
   },
-  "PACKAGES_XIAOMI_11T_PRO": [
-    "com.ea.gp.apexlegendsmobilefps",
-    "com.levelinfinite.hotta.gp",
-    "com.supercell.clashofclans",
-    "com.vng.mlbbvn"
-  ],
-  "PACKAGES_XIAOMI_11T_PRO_DEVICE": {
-    "BRAND": "Xiaomi",
-    "DEVICE": "Xiaomi 11T Pro",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2107113SG",
-    "FINGERPRINT": "Xiaomi/2107113SI/Mi 11T Pro:13/RKQ1.211001.001/20230410:user/release-keys",
-    "PRODUCT": "2107113SG"
+  "com.ea.gp.fifamobile": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
   },
-  "PACKAGES_XIAOMI_13_PRO": [
-    "com.levelinfinite.sgameGlobal",
-    "com.tencent.tmgp.sgame",
-    "com.pubg.krmobile",
-    "com.rekoo.pubgm",
-    "com.tencent.tmgp.pubgmhd",
-    "com.vng.pubgmobile",
-    "com.pubg.imobile",
-    "com.tencent.ig"
-  ],
-  "PACKAGES_XIAOMI_13_PRO_DEVICE": {
-    "BRAND": "Xiaomi",
-    "DEVICE": "Xiaomi 13 Pro",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2210132G",
-    "FINGERPRINT": "Xiaomi/fuxi_eea/fuxi:13/TKQ1.221114.001/OS2.0.102.0.VMCEUXM:user/release-keys",
-    "PRODUCT": "2210132G"
+  "com.gameloft.android.ANMP.GloftA9HM": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
   },
-  "PACKAGES_ONEPLUS_8_PRO_5G": [
-    "com.netease.lztgglobal",
-    "com.riotgames.league.wildrift",
-    "com.riotgames.league.wildrifttw",
-    "com.riotgames.league.wildriftvn"
-  ],
-  "PACKAGES_ONEPLUS_8_PRO_5G_DEVICE": {
-    "BRAND": "OnePlus",
-    "DEVICE": "OnePlus 8 Pro 5G",
+  "com.madfingergames.legends": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.pearlabyss.blackdesertm": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.pearlabyss.blackdesertm.gl": {
+    "BRAND": "asus",
+    "DEVICE": "AI2201",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2201"
+  },
+  "com.proxima.dfm": {
+    "BRAND": "asus",
+    "DEVICE": "AI2203_C",
+    "MANUFACTURER": "asus",
+    "MODEL": "ASUS_AI2203_C"
+  },
+  "com.activision.callofduty.shooter": {
+    "MANUFACTURER": "lenovo",
+    "MODEL": "Lenovo TB-9707F"
+  },
+  "com.garena.game.codm": {
+    "MANUFACTURER": "lenovo",
+    "MODEL": "Lenovo TB-9707F"
+  },
+  "com.tencent.tmgp.kr.codm": {
+    "MANUFACTURER": "lenovo",
+    "MODEL": "Lenovo TB-9707F"
+  },
+  "com.vng.codmvn": {
+    "MANUFACTURER": "lenovo",
+    "MODEL": "Lenovo TB-9707F"
+  },
+  "com.netease.lztgglobal": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "IN2023",
-    "FINGERPRINT": "OnePlus/IN2023/OnePlus8Pro:13/RKQ1.211119.001/20230501:user/release-keys",
-    "PRODUCT": "IN2023"
+    "MODEL": "IN2020"
   },
-  "PACKAGES_ONEPLUS_9_PRO_5G": [
-    "com.epicgames.fortnite",
-    "com.epicgames.portal"
-  ],
-  "PACKAGES_ONEPLUS_9_PRO_5G_DEVICE": {
-    "BRAND": "OnePlus",
-    "DEVICE": "OnePlus 9 Pro 5G",
+  "com.riotgames.league.wildrift": {
     "MANUFACTURER": "OnePlus",
-    "MODEL": "LE2123",
-    "FINGERPRINT": "OnePlus/LE2123/OnePlus9Pro:14/UP1A.231005.007/20240115:user/release-keys",
-    "PRODUCT": "LE2123"
+    "MODEL": "IN2020"
   },
-  "PACKAGES_POCO_F5": [
-    "com.mobile.legends"
-  ],
-  "PACKAGES_POCO_F5_DEVICE": {
-    "BRAND": "POCO",
-    "DEVICE": "POCO F5",
+  "com.riotgames.league.wildrifttw": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.riotgames.league.wildriftvn": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.riotgames.league.teamfighttactics": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.riotgames.league.teamfighttacticstw": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.riotgames.league.teamfighttacticsvn": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "IN2020"
+  },
+  "com.epicgames.fortnite": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "LE2123"
+  },
+  "com.epicgames.portal": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "LE2123"
+  },
+  "com.tencent.lolm": {
+    "MANUFACTURER": "OnePlus",
+    "MODEL": "LE2123"
+  },
+  "com.ea.gp.apexlegendsmobilefps": {
     "MANUFACTURER": "Xiaomi",
-    "MODEL": "23049PCD8G",
-    "FINGERPRINT": "POCO/23049PCD8G/POCOF5:13/TQ3A.230805.001/20230620:user/release-keys",
-    "PRODUCT": "23049PCD8G"
+    "MODEL": "2107113SI"
   },
-  "PACKAGES_ROG_PHONE_6D_ULTIMATE": [
-    "com.gameloft.android.ANMP.GloftA9HM",
-    "com.madfingergames.legends",
-    "com.pearlabyss.blackdesertm",
-    "com.pearlabyss.blackdesertm.gl"
-  ],
-  "PACKAGES_ROG_PHONE_6D_ULTIMATE_DEVICE": {
-    "BRAND": "ASUS",
-    "DEVICE": "ROG Phone 6D Ultimate",
-    "MANUFACTURER": "ASUS",
-    "MODEL": "AI2203",
-    "FINGERPRINT": "ASUS/AI2203/ROG Phone 6D:14/UP1A.231005.007/20240315:user/release-keys",
-    "PRODUCT": "AI2203"
+  "com.levelinfinite.hotta.gp": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2107113SI"
   },
-  "PACKAGES_LEGION_Y700_(2023)": [
-    "com.activision.callofduty.shooter",
-    "com.garena.game.codm",
-    "com.tencent.tmgp.kr.codm",
-    "com.vng.codmvn"
-  ],
-  "PACKAGES_LEGION_Y700_(2023)_DEVICE": {
-    "BRAND": "Lenovo",
-    "DEVICE": "Legion Y700 (2023)",
-    "MANUFACTURER": "Lenovo",
-    "MODEL": "TB-9707F",
-    "FINGERPRINT": "Lenovo/TB-9707F/Lenovo TB-9707F:13/TQ3A.230805.001/20230901:user/release-keys",
-    "PRODUCT": "TB-9707F"
+  "com.supercell.clashofclans": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2107113SI"
   },
-  "PACKAGES_GALAXY_S24_ULTRA": [
-    "com.ea.gp.fifamobile",
-    "com.facebook.orca"
-  ],
-  "PACKAGES_GALAXY_S24_ULTRA_DEVICE": {
+  "com.vng.mlbbvn": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2107113SI"
+  },
+  "com.levelinfinite.sgameGlobal": {
+    "BRAND": "Xiaomi",
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2210132C"
+  },
+  "com.tencent.tmgp.sgame": {
+    "BRAND": "Xiaomi",
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "2210132C"
+  },
+  "com.dts.freefiremax": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "23049PCD8G"
+  },
+  "com.dts.freefireth": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "23049PCD8G"
+  },
+  "com.mobile.legends": {
+    "MANUFACTURER": "Xiaomi",
+    "MODEL": "23049PCD8G"
+  },
+  "com.proximabeta.mf.uamo": {
+    "MANUFACTURER": "blackshark",
+    "MODEL": "2SM-X706B"
+  },
+  "com.blizzard.diablo.immortal": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.pubg.imobile": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.pubg.krmobile": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.rekoo.pubgm": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.tencent.ig": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.tencent.tmgp.pubgmhd": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.vng.pubgmobile": {
+    "BRAND": "samsung",
+    "MANUFACTURER": "samsung",
+    "MODEL": "SM-S928B"
+  },
+  "com.garena.game.kgvn": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgid": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgth": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.tencent.ngjp": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgtw": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.ngame.allstar.eu": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.clashoftitansandroid.india": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.tencent.ngame.chty": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgvntest": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.levelinfinite.aov": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.tencent.aovindia": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgms": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.tencent.aovjp": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  },
+  "com.garena.game.kgph": {
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
+  }
+  "com.facebook.orca": {
     "BRAND": "Samsung",
     "DEVICE": "Galaxy S24 Ultra",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S928B",
     "FINGERPRINT": "samsung/SM-S928B/SM-S928B:14/UP1A.231005.007/20240225:user/release-keys",
     "PRODUCT": "SM-S928B"
-  },
-  "PACKAGES_XIAOMI_13": [
-    "com.tencent.lolm"
-  ],
-  "PACKAGES_XIAOMI_13_DEVICE": {
-    "BRAND": "Xiaomi",
-    "DEVICE": "Xiaomi 13",
-    "MANUFACTURER": "Xiaomi",
-    "MODEL": "2211133G",
-    "FINGERPRINT": "Xiaomi/fuxi_eea/fuxi:13/TKQ1.221114.001/OS2.0.102.0.VMCEUXM:user/release-keys",
-    "PRODUCT": "2211133G"
-  },
-  "PACKAGES_ONEPLUS_13": [
-    "com.proxima.dfm"
-  ],
-  "PACKAGES_ONEPLUS_13_DEVICE": {
-    "BRAND": "OnePlus",
-    "DEVICE": "OnePlus 13",
-    "MANUFACTURER": "OnePlus",
-    "MODEL": "PJZ110",
-    "FINGERPRINT": "OnePlus/PJZ110/OP5D0DL1:15/AP3A.240617.008/V.1bd19a1-1-2:user/release-keys",
-    "PRODUCT": "PJZ110"
-  },
-  "PACKAGES_REALME_P3_5G": [
-    "com.dts.freefiremax",
-    "com.dts.freefireth"
-  ],
-"PACKAGES_REALME_P3_5G_DEVICE": {
-    "BRAND": "realme",
-    "DEVICE": "kbi",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5070",
-    "FINGERPRINT": "realme/kbi/RE58B4L1:14/UKQ1.230804.001/1715073230894:user/release-keys",
-    "PRODUCT": "RE5824031PN0DCB4L1",
-    "BOARD": "kbi"
-},
-  "PACKAGES_REALME_15_PRO": [
-    "com.garena.game.kgvn",
-    "com.garena.game.kgid",
-    "com.garena.game.kgth",
-    "com.tencent.ngjp",
-    "com.garena.game.kgtw",
-    "com.ngame.allstar.eu",
-    "com.clashoftitansandroid.india",
-    "com.tencent.ngame.chty",
-    "com.garena.game.kgvntest",
-    "com.levelinfinite.aov",
-    "com.tencent.aovindia",
-    "com.garena.game.kgms",
-    "com.tencent.aovjp",
-    "com.garena.game.kgph"
-  ],
-"PACKAGES_REALME_15_PRO_DEVICE": {
-    "BRAND": "realme",
-    "DEVICE": "Realme 15 Pro 5G",
-    "MANUFACTURER": "realme",
-    "MODEL": "RMX5101"
-}
+  }
 }

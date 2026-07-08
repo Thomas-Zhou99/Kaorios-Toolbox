@@ -3,7 +3,7 @@
 set -e
 
 # Adjusted for project structure
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 TARGET_FILE="$REPO_ROOT/Toolbox-data/Pif-props.json"
 WORKDIR="$REPO_ROOT/work/pif_update"
 

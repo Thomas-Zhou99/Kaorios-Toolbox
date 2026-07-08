@@ -1,9 +1,9 @@
 work/
 framework.jar
 *.jar
-!framework-patcher/tools/apktool.jar
+!Toolbox-patcher/tools/apktool.jar
 .idea/
 node_modules/
-framework-patcher/framework_patched.jar
-framework-patcher/framework_decompile/
-framework-patcher/backup/
+Toolbox-patcher/framework_patched.jar
+Toolbox-patcher/framework_decompile/
+Toolbox-patcher/backup/

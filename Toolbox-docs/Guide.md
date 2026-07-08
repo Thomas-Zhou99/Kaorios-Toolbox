@@ -40,7 +40,7 @@ ro.control_privapp_permissions=
 ```
 ApplicationPackageManager
 ```
-> add filed:
+> add field:
 ```
 .field private final mContext:Landroid/content/Context;
 ```

@@ -40,10 +40,8 @@ Import **classes.dex** into the **last classes** of `framework.jar` (append as t
 ApplicationPackageManager
 ```
 
-### Follow this file: 
-```
-**[Toolbox-docs/ApplicationPackageManager](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs/Class-guide)**
-```
+### Follow this file:
+**[ApplicationPackageManager](https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs/Class-guide)**
 ---
 
 ### Class:
